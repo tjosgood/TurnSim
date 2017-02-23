@@ -1,0 +1,116 @@
+﻿{
+
+    "SimSettings": {
+        "MinUnitDistance": 1,
+        "EngageRange" : 0.95
+    },
+
+    "UnitTypes": [
+        {
+            "Class": "Leader",
+            "Strength": 7,
+            "Agility": 5,
+            "Toughness": 5,
+            "WeaponSkill": 13,
+            "BalisticSkill": 9,
+            "BaseHP": 180,
+            "MovementPerSP": 4,
+            "MaxSP": 7,
+            "MaxOP": 6
+        },
+        {
+            "Class": "Hero",
+            "Strength": 7,
+            "Agility": 4,
+            "Toughness": 5,
+            "WeaponSkill": 12,
+            "BalisticSkill": 8,
+            "BaseHP": 140,
+            "MovementPerSP": 4,
+            "MaxSP": 6,
+            "MaxOP": 4
+        },
+        {
+            "Class": "Henchman",
+            "Strength": 3,
+            "Agility": 3,
+            "Toughness": 3,
+            "WeaponSkill": 6,
+            "BalisticSkill": 3,
+            "BaseHP": 100,
+            "MovementPerSP": 4,
+            "MaxSP": 4,
+            "MaxOP": 2
+        }
+    ],
+
+    "Weapons": [
+        {
+            "Name": "Hammer",
+            "OP_cost": 2,
+            "MinDamage": 23,
+            "MaxDamage": 25,
+            "Range": 1.5
+        },
+        {
+            "Name": "GreatHammer",
+            "OP_cost": 2,
+            "MinDamage": 38,
+            "MaxDamage": 42,
+            "Range": 1.5
+        }
+    ],
+
+    "TeamConfig": {
+
+        "Units": [
+            {
+                "Class": "Henchman",
+                "Weapon": "Hammer",
+                "X": 4,
+                "Y": 4
+            },
+            {
+                "Class": "Henchman",
+                "Weapon": "Hammer",
+                "X": 4,
+                "Y": 8
+            },
+            {
+                "Class": "Hero",
+                "Weapon": "GreatHammer",
+                "X": 4,
+                "Y": 12
+            },
+            {
+                "Class": "Leader",
+                "Weapon": "GreatHammer",
+                "X": 4,
+                "Y": 16
+            },
+            {
+                "Class": "Hero",
+                "Weapon": "GreatHammer",
+                "X": 4,
+                "Y": 20
+            },
+            {
+                "Class": "Henchman",
+                "Weapon": "Hammer",
+                "X": 4,
+                "Y": 24
+            },
+            {
+                "Class": "Henchman",
+                "Weapon": "Hammer",
+                "X": 4,
+                "Y": 28
+            }
+
+
+        ]
+
+
+    }
+
+}
